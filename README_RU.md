@@ -52,11 +52,11 @@ const engine = new BABYLON.Engine(canvas);
 
 ```javascript
 ...
-import gulpdel from "gulp-del-lines";
+import gulpDel from "gulp-del-lines";
 // const gulpdel = require("gulp-del-lines");
 ...
 gulp.src(from)
-    .pipe(gulpdel)
+    .pipe(gulpDel)
     .pipe(to);
 ...
 ```
