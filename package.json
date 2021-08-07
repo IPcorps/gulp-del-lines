@@ -1,5 +1,5 @@
 {
-  "name": "gulpdellines",
+  "name": "gulp-del-lines",
   "version": "1.0.0",
   "description": "♟ A simple gulp plugin whose only purpose is to delete a line that ends with -DEL.",
   "keywords": [
