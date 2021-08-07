@@ -21,7 +21,7 @@ A web application in html connects external scripts to the library, which, at th
 ```
 
 >---
->**Примечание**
+>**Note**
 >
 >There are also installed npm packages of this library, written in **TypeScript**
 >
@@ -40,3 +40,23 @@ const engine = new BABYLON.Engine(canvas);
 ...
 ```
 During subsequent compilation, the marked lines will be cut by the plugin, allowing you to compile and run the application without errors.
+
+# Applying
+
+## Installation:
+>___
+>npm i gulp-del-lines -save-dev
+>___
+
+## Using:
+
+```javascript
+...
+import gulpdel from "gulp-del-lines";
+// const gulpdel = require("gulp-del-lines");
+...
+gulp.src(pathFrom)
+    .pipe(gulpdel)
+    .pipe(pathTo);
+...
+```
