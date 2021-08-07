@@ -55,8 +55,8 @@ const engine = new BABYLON.Engine(canvas);
 import gulpdel from "gulp-del-lines";
 // const gulpdel = require("gulp-del-lines");
 ...
-gulp.src(pathFrom)
+gulp.src(from)
     .pipe(gulpdel)
-    .pipe(pathTo);
+    .pipe(to);
 ...
 ```

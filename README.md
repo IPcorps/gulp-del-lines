@@ -55,8 +55,8 @@ During subsequent compilation, the marked lines will be cut by the plugin, allow
 import gulpdel from "gulp-del-lines";
 // const gulpdel = require("gulp-del-lines");
 ...
-gulp.src(pathFrom)
+gulp.src(from)
     .pipe(gulpdel)
-    .pipe(pathTo);
+    .pipe(to);
 ...
 ```
