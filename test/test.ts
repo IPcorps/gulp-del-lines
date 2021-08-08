@@ -10,4 +10,4 @@ const sWrite = new stream.Writable({
     write(file, _, _cb) { console.log(file.contents.toString()) }
 });
 
-gulp.src("test/test.ts").pipe(gulpDel).pipe(sWrite);
+gulp.src("test/test.ts").pipe(gulpDel()).pipe(sWrite);
