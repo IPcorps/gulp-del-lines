@@ -56,7 +56,7 @@ import gulpDel from "gulp-del-lines";
 // const gulpdel = require("gulp-del-lines");
 ...
 gulp.src(from)
-    .pipe(gulpDel)
+    .pipe(gulpDel())
     .pipe(to);
 ...
 ```
